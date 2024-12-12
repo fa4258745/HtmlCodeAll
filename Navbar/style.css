@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgba(103, 29, 176, 0.767);
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.navbar ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #eaeaea;
+  font-weight: 500;
+}
+.navbar .icons a {
+  text-decoration: none;
+}
+
+.navbar .icons i {
+  color: #eaeaea;
+  font-size: 20px;
+}
+
+.navbar .icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}

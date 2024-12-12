@@ -1,0 +1,30 @@
+/* Universal selector*/
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+/* ID Secelctor */
+#heading {
+  background-color: aqua;
+  color: black;
+}
+
+.heading {
+  background-color: rgb(142, 195, 68);
+  color: black;
+}
+
+/* Class Selector */
+.class {
+  background-color: black;
+  color: white;
+}
+
+.diff {
+  font-size: 2em;
+}

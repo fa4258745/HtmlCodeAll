@@ -1,0 +1,45 @@
+body {
+  /* background-color: rgb(100, 100, 100,1); */
+  background-color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mypara {
+  background-color: #000;
+  color: #fff;
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 34px;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: 900;
+  text-transform: capitalize;
+  word-spacing: 20px;
+  letter-spacing: 20px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.para {
+height: 300px;
+    border-top: 2px solid #fff;
+     border-right: 10px solid rebeccapurple;
+     border-left: 10px solid blue;
+     border-bottom: 10px solid crimson;
+    color: #fff;
+}
+
+
+#para {
+    background-color: rebeccapurple;
+    height: 200px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
