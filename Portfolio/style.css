@@ -12,7 +12,6 @@ body {
   /* overflow: hidden; */
 }
 
-
 /* Nav Section Starts */
 
 nav {
@@ -53,8 +52,7 @@ ul li a:hover {
 
 .home {
   height: 90vh;
-    background-color: #eb7b1d;
-
+  background-color: #eb7b1d;
 }
 
 .port {
@@ -67,6 +65,7 @@ ul li a:hover {
   padding: 0px 150px;
   margin-top: 80px;
   color: #eaeaea;
+ 
 }
 
 .content .title-1 {
@@ -90,7 +89,6 @@ ul li a:hover {
   font-size: 1.1rem;
   text-indent: 50px;
 }
-
 
 .content .btn {
   border: 3px rgb(19, 1, 1);
@@ -117,9 +115,9 @@ ul li a:hover {
 /* About Section Start */
 
 .about {
-height: 100vh;
-background-color: #eaeaea;
-color: #eb7b1d;
+  height: 100vh;
+  background-color: #eaeaea;
+  color: #eb7b1d;
 }
 
 /* About Section Ends */
@@ -150,13 +148,11 @@ color: #eb7b1d;
 
 /* Footer */
 
-.footer  {
+.footer {
   height: 50vh;
   background-color: #eb7b1d;
-color: #eaeaea;
+  color: #eaeaea;
 }
-
-
 
 /* Scroll Bar */
 
@@ -184,7 +180,5 @@ color: #eaeaea;
 }
 
 .content .icons i:hover {
-color: #000;
+  color: #000;
 }
-
-

@@ -1,0 +1,33 @@
+.container {
+border: 5px solid #000;
+height: 100px;
+margin: 50px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+/* it is relative to its normal position */
+
+.box1 {
+    background-color: red;
+    position: relative;
+
+
+}
+/* moves from the top and left of the page edges  */
+.box2 {
+    background-color: orange;
+    position: absolute;
+}
+/*  */
+.box3 {
+    background-color: green;
+    position: fixed;
+    top: 0;left: 0;
+}
+.box4 {
+    background-color: blue;
+    position: sticky;
+}

@@ -1,0 +1,46 @@
+body {
+    background-color: red;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+h1 {
+    background-color: yellow;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.images img {
+    width: 300px;
+}
+
+/* Tablet view */
+
+@media screen and (max-width:768px){
+    body {
+        background-color: blue;
+    }
+    h1 {
+        background-color: white;
+        color: red;
+    }
+    .images  {
+        flex-direction: column;
+    }
+}
+
+/* Mobile view */
+
+@media screen and (max-width:425px) {
+    body {
+        background-color: orange;
+    }
+}

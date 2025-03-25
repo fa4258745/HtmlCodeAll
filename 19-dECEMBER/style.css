@@ -1,0 +1,95 @@
+/* p is the direct child of div */
+
+div > p {
+  background-color: yellow;
+  color: blue;
+}
+
+/* next sibling */
+div + p {
+  background-color: turquoise;
+  color: black;
+}
+/* subsequent dibling */
+div ~ p {
+  background-color: black;
+  color: #fff;
+}
+
+/* By attribute */
+input [type="text"] {
+  background-color: blueviolet;
+  color: tan;
+}
+
+/* By attribute */
+
+input[type="text"] {
+  background-color: rebeccapurple;
+  color: white;
+}
+input[type="text"]:focus {
+  background-color: rebeccapurple;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+a {
+  background-color: rgb(51, 61, 153);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 100px;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: turquoise;
+  color: yellowgreen;
+}
+
+a:link {
+  background-color: gainsboro;
+  color: black;
+}
+
+a:active {
+  background-color: tomato;
+  color: black;
+}
+
+a:hover {
+  background-color: springgreen;
+  color: teal;
+}
+
+li:first-child {
+  background-color: #000;
+  color: #eaeaea;
+}
+
+li:last-child {
+  background-color: rebeccapurple;
+  color: turquoise;
+}
+
+li:nth-child(5) {
+  background-color: tomato;
+  color: #eaeaea;
+}
+/* Every nth elemeyn */
+li:nth-child(3n) {
+  background-color: violet;
+  color: #eaeaea;
+}
+
+/* odd */
+li:nth-child(odd) {
+  background-color: #000;
+}
+/* even */
+li:nth-child(even) {
+  background-color: #000;
+}

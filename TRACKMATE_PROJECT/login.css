@@ -1,0 +1,322 @@
+/* <-------LOGIN-SECTION--------> */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Wix-variable";
+  src: url(./Project/WixMadeforText-VariableFont_wght.ttf);
+}
+
+.login-sec {
+  background-image: linear-gradient(to top, #4c018d4b, #000);
+  background-color: #000000dd;
+  height: 100vh;
+  color: #eaeaea;
+  font-family: "Wix-variable";
+}
+.login-sec svg {
+  position: fixed;
+}
+.login-content {
+  /* background: url(./test.img.watch/smart-watch-3.jpg) no-repeat center center/cover ; */
+  margin-left: 30px;
+  margin-top: 5vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+  gap: 25px;
+  font-family: "Wix-variable";
+  box-shadow: 10px 10px 15px #6f2da9d1, 10px 10px 5px #6f2da9d1;
+  border-radius: 10px;
+  backdrop-filter: blur(25px) saturate(0%);
+  -webkit-backdrop-filter: blur(25px) saturate(0%);
+  background-color: rgba(17, 25, 40, 0.97);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.login-content input[type="email"] {
+  width: 350px;
+  display: block;
+  padding: 10px 30px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #6f2da9d1;
+  color: #eaeaea;
+  font-size: 1rem;
+}
+.login-content input[type="text"] {
+  width: 140px;
+  display: block;
+  background-color: #6f2da9d1;
+  padding: 10px 30px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+.login-content input[type="password"] {
+  width: 350px;
+  background-color: #6f2da9d1;
+  display: block;
+  /* padding: 10px 30px; */
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  border: none;
+  /* box-sizing: border-box; */
+  padding: 10px 30px;
+  background-image: url(./IMAGES/eye-password-hide-svgrepo-com.png) no-repeat
+    center center / 20px;
+}
+.login-content input[type="checkbox"] {
+  display: inline-block;
+}
+.input-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.flex-container input:focus {
+  background-color: #eaeaea;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.flex-container img {
+  width: 45vw;
+  position: relative;
+  transition: transform 0.5s;
+  /* border-radius: 400px; */
+}
+
+.resiter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 50%;
+}
+
+.button-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: #eaeaea;
+}
+
+.flex-container .back {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  cursor: pointer;
+  transition: transform 0.5s;
+  background-color: #5e2992;
+  padding: 10px 20px;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #eaeaea;
+}
+.flex-container .back a {
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.flex-container .back:hover {
+  transition: 0.1s ease-in;
+  box-shadow: 0px 0px 15px #eaeaea, 0px 0px 5px #eaeaea;
+}
+.create-acc {
+  text-decoration: none;
+  width: 400px !important;
+  width: 100%;
+}
+
+.btn-goggle-1 a {
+  width: 10px;
+  font-size: 1.2rem;
+  color: #eaeaea;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.btn-goggle-2 a {
+  width: 10px;
+  font-size: 1.2rem;
+  color: #eaeaea;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-goggle-1,
+.div-1 img {
+  width: 20px;
+  display: flex;
+}
+.btn-goggle-2,
+.div-2 img {
+  width: 20px;
+}
+.btn-goggle-1,
+.btn-goggle-2 {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: #5e2992;
+  color: white;
+  box-shadow: 0px 0px 15px #6f2da9d1, 0px 0px 5px #6f2da9d1;
+  font-family: "Wix-variable";
+  font-weight: 500;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 180px;
+}
+.btn-goggle-1:hover {
+  box-shadow: none;
+  transition: 0.2s ease-in;
+}
+.btn-goggle-2:hover {
+  box-shadow: none;
+  transition: 0.2s ease-in;
+}
+input {
+  accent-color: #eaeaea;
+  accent-color: #6f2da9d1;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+}
+input:checked + label {
+  transition: 0.2s ease-in;
+}
+
+.start-flex {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: flex-start;
+}
+
+.login-content .start-flex h1 {
+  font-size: 2.4rem;
+  line-height: 60px;
+}
+
+input:focus {
+  background-color: #eaeaea;
+  color: #000;
+  box-shadow: 10px 10px 5px #6f2da9d1, 2px 10px 10px #6f2da9d1;
+  box-shadow: 5px 5px 5px #6f2da9d1, 2px 5px 5px #6f2da9d1;
+}
+
+.no-shadow {
+  box-shadow: none !important;
+}
+
+/*<--------- MEDIA QUERY-----------> */
+
+@media screen and (max-width: 900px) {
+  .laptop-img {
+    display: none;
+  }
+
+  .login-content {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+box-sizing: border-box;
+
+    background: url(./IMAGES/laptop-lady.jpg) no-repeat center center / cover;
+  }
+  .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .flex-container .back {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    left: 0;
+    cursor: pointer;
+    transition: transform 0.5s;
+
+  }
+  .flex-container .back:hover {
+    transition: 0.1s ease-in;
+    transition: transform 0.5s;
+    transform: rotate(360deg);
+    box-shadow: 0px 0px 15px #eaeaea, 0px 0px 5px #eaeaea;
+  }
+
+
+  .login-content input[type="text"] {
+    width: 40vw;
+  }
+  .login-content input[type="password"] {
+    width: 40vw;
+  }
+  .login-content input[type="email"] {
+    width: 40vw;
+  }
+  .input-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .btn-goggle-2 {
+    box-sizing: border-box;
+  }
+  .login-content .start-flex h1 {
+    font-size: 1.6rem;
+  }
+  .input-flex-2 {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 768px) {
+  
+}
+@media screen and (max-width:1120px){
+  .login-content .start-flex h1 {
+    font-size: 2rem;
+  }
+}
+  @media screen and (max-width:425px) {
+
+ 
+    .login-content .start-flex h1 {
+      font-size: 0.9rem;
+      margin-left: 100px;
+    }
+   
+}
